@@ -1,17 +1,104 @@
+*
+{
+	box-sizing: border-box;
+}
+#cname
+{
+	text-decoration: none;
+	color:#ffffff ;
+}
 body
 {
 	background-color: #D4AF37;
 	background-size: 100% 110%;
 }
-#logform
-{	
-	padding-left: 500px;
-	padding-top: 150px;
-
-}
-
-
-.credit
+.container
 {
-	padding-left: 500px;
+	margin: auto;
 }
+#navbar
+{
+	text-transform: uppercase;
+}
+#navbar li
+{
+	display: inline;
+	padding-right: 50px;
+	list-style: none;
+}
+#navbar
+{
+	text-decoration: none;
+
+}
+#navbar a
+{
+	text-decoration: none;
+	color: #888;
+}
+#navbar li.current a, #navbar a:hover
+{
+	color:#56a79a;
+	border-bottom: 3px solid #56a79a;
+	padding-bottom: 3px;
+}
+
+.container1
+{
+	max-width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+}
+.log
+{
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.wrapper
+{
+	box-shadow: 0 0 38px 0 rgba(82,84,206,1.7);
+}
+.wrappper p
+{
+	margin: 0;
+}
+
+.wrapper > *
+{
+	padding: 2em;
+}
+
+.wrapper button
+{
+	text-align: center;
+	text-transform: uppercase;
+	width: 85%;
+	border: 0;
+	height: 25px;
+
+}
+.wrapper button:hover, .wrapper button:focus
+{
+	background: #56a79a;
+	transition: background-color 1s ease-out;
+	
+} 
+
+/*for large size*/
+@media(min-width: 700px)
+{
+	.wrapper
+	{
+		display: grid;
+		grid-auto-columns: 1fr 2fr;
+
+	}
+
+}
+
+
+
+
+
+
