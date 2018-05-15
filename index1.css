@@ -23,7 +23,7 @@ body
 #navbar li
 {
 	display: inline;
-	padding-right: 50px;
+	padding-right: 20px;
 	list-style: none;
 }
 #navbar
@@ -42,7 +42,10 @@ body
 	border-bottom: 3px solid #56a79a;
 	padding-bottom: 3px;
 }
-
+.primary-text
+{
+	color:black;
+}
 .container1
 {
 	max-width: 300px;
@@ -50,11 +53,13 @@ body
 	margin-right: auto;
 	padding: 1em;
 }
+
 .log
 {
 	text-transform: uppercase;
 	color: #ffffff;
 }
+
 .wrapper
 {
 	box-shadow: 0 0 38px 0 rgba(82,84,206,1.7);
